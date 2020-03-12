@@ -1,6 +1,6 @@
 CC=g++
 CFLAGS=-c -Wall -std=c++17
-SOURCES=main.cpp board.cpp
+SOURCES=main.cpp board.cpp input.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 EXECUTABLE=chess_game
 
